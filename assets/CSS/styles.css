@@ -9,6 +9,7 @@ body{
     background-color: #f8f0e3;
 }
 
+/*/ Header starts here, the nav bar is included with the header /*/
 
 header {
     display: flex;
@@ -19,8 +20,6 @@ header {
     background-color: #bea4938e;
     color: whitesmoke;
 }
-
-
 
 nav a {
     color: whitesmoke;
@@ -48,8 +47,64 @@ nav a {
     color:brown;
 }
  
+/*/ header ends here /*/
 
 
+/*/ project scetion starts here /*/
+
+.project-section {
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.project-section .box {
+    position: relative;
+    width: 100%;
+    background:#6f4e37;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
+
+img {
+    border: black 5px solid;
+}
+
+.run-buddy{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-section {
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-section {
+    width:1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
+.about-section .box {
+    position: relative;
+    width: 100%;
+    background:#6f4e37;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
 
+.contact-section .box {
+    position: relative;
+    width: 100%;
+    background:#6f4e37;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
