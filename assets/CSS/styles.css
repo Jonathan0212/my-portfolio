@@ -21,7 +21,7 @@ header {
     color: whitesmoke;
 }
 
-nav a {
+ a {
     color: whitesmoke;
     font:bold;
     font-size: 25px;
@@ -71,11 +71,22 @@ nav a {
 
 img {
     border: black 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .run-buddy{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.run-buddy:hover{
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 .about-section {
@@ -90,21 +101,23 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+} 
+
+.selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
 }
 
-
-.about-section .box {
-    position: relative;
-    width: 100%;
-    background:#6f4e37;
-    padding: 100px 40px 60px;
-    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    list-style-type: none;
 }
 
-.contact-section .box {
-    position: relative;
-    width: 100%;
-    background:#6f4e37;
-    padding: 100px 40px 60px;
-    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+.contact-links li a:hover{
+    transition: all 0.3s ease 0s;
+    color:brown;
 }
