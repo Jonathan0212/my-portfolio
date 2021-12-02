@@ -3,3 +3,8 @@
 
 ![Screenshot1](assets\images\Screenshot_2.png)
 ![Screenshot2](assets\images\Screenshot_3.png)
+
+<h2>I hope to see you all on this amazing journey!</h2
+
+Click [here]https://jonathan0212.github.io/my-portfolio/) to go to my porfolio site.
+
