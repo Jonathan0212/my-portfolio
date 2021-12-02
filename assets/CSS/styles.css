@@ -53,7 +53,7 @@ header {
 /*/ project scetion starts here /*/
 
 .project-section {
-    width:1100px;
+    width:auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -70,7 +70,6 @@ header {
 }
 
 img {
-    border: black 5px solid;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -90,18 +89,19 @@ img {
 }
 
 .about-section {
-    width:1100px;
+    width:auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contact-section {
-    width:1100px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} 
+.about-section .box {
+    position: relative;
+    width: 100%;
+    background:#6f4e37;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
 
 .selfie {
     display: block;
@@ -110,7 +110,25 @@ img {
     width: 50;
 }
 
-.contact-links{
+
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
+.contact-section .box {
+    position: relative;
+    width: 100%;
+    background:#6f4e37;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
+
+
+
+.contact-links {
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
@@ -121,3 +139,4 @@ img {
     transition: all 0.3s ease 0s;
     color:brown;
 }
+

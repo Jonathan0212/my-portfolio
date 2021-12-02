@@ -1,0 +1,13 @@
+@media screen and (max-width: 799px) {
+    .header {
+        width:0%;
+        position: absolute;
+    }
+    .article{
+        width: 0%;
+    }
+
+    .img {
+        width: 0;
+    }
+}
