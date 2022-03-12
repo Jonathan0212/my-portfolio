@@ -88,6 +88,23 @@ img {
     transform: scale(1.25);
 }
 
+
+
+.canine{
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.canine:hover{
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+
+
 .about-section {
     width:auto;
     display: flex;
